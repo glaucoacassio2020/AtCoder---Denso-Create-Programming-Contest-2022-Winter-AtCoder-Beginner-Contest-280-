@@ -60,7 +60,7 @@ void run_case() {
 		b[i] = a[i] - a[i - 1];
 	}
 	for (int x: b) {
-		cout << x << ' ';
+		cout << x << " ";
 	}
 	cout << '\n';
 }
