@@ -1,0 +1,25 @@
+{
+    "files.associations": {
+        "vector": "cpp",
+        "ios": "cpp",
+        "random": "cpp",
+        "__bit_reference": "cpp",
+        "__debug": "cpp",
+        "__nullptr": "cpp",
+        "bitset": "cpp",
+        "exception": "cpp",
+        "functional": "cpp",
+        "iterator": "cpp",
+        "memory_resource": "cpp",
+        "string": "cpp",
+        "initializer_list": "cpp",
+        "iosfwd": "cpp",
+        "memory": "cpp",
+        "new": "cpp",
+        "string_view": "cpp",
+        "type_traits": "cpp",
+        "typeinfo": "cpp",
+        "iostream": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "enabled"
+}

@@ -1,0 +1,7 @@
+-I
+src
+-I
+%VULKAN_SDK%/Include
+-xc++
+-std=c++17
+-fsyntax-only
