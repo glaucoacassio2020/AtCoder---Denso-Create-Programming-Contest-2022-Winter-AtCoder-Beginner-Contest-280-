@@ -50,15 +50,13 @@ template<typename Head, typename... Tail> void dbg_out(Head H, Tail... T) { cerr
 void run_case() {
 	string s, t;
 	cin >> s >> t;
-	auto solve = [&](string s, string t) {
-		for (size_t i = 0; i < s.length(); ++i) {
-			if(s[i] != t[i]) {
-				cout << i + 1 << '\n';
-				return;
-			}
+	for (size_t i = 0; i < s.length(); ++i) {
+		if(s[i] != t[i]) {
+			cout << i + 1 << '\n';
+			return;
 		}
-	};
-	solve(s, t);
+	}
+	cout << s.size() + 1 << '\n';
 }
  
 int main() {
